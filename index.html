@@ -5,141 +5,219 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Carlos Aizaga Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<head>
+  <link rel="icon" href="images/ca.jpg" type="image/x-icon">
+  <title>Carlos Aizaga Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" "description" content="Economist and Data Analyst skilled in Excel, Tableau, Power BI, and SQL. Explore my portfolio of projects and gain insights into data analysis and visualization techniques." />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  <style>
+    #wrapper {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    #main {
+      flex-grow: 1;
+      padding-bottom: 3em; /* Add padding to push the footer up */
+    }
+	#footer {
+  background-color: #f7f7f7;
+  padding: 30px;
+  text-align: center;
+}
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Carlos Aizaga<br />
-						Portfolio</h1>
-						<p>Economist and Data Analyst, skilled in Excel, Tableau, Power BI and SQL <a href="https://www.linkedin.com/in/caizaga/">@caizaga</a>
-						</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+.contact-info h2 {
+  margin: 0;
+  font-size: 20px;
+}
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Projects</a>
-					</header>
+.contact-info > div {
+  flex: 0 0 48%;
+  margin-bottom: 20px;
+}
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Projects</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/caizaga/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://github.com/caizaga" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+.contact-info h3 {
+  margin: 0;
+  font-size: 16px;
+}
 
-				<!-- Main -->
-					<div id="main">
+.contact-info p {
+  margin: 10px 0 0;
+}
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-							
-									<h2><a href="https://public.tableau.com/authoring/Covid-19DashboardCMAR/Dashboard1#1">COVID-19 Dashboard in Tableau<br />
+.attribution {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.attribution a {
+  color: #333;
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
+    footer section {
+      margin-bottom: 2em;
+    }
+  </style>
+</head>
+<body class="is-preload">
+
+<!-- Wrapper -->
+<div id="wrapper" class="fade-in">
+
+  <!-- Intro -->
+  <div id="intro">
+    <h1>Carlos Aizaga<br />
+      Portfolio</h1>
+    <p>Economist and Data Analyst, skilled in Excel, Tableau, Power BI and SQL <a href="https://www.linkedin.com/in/caizaga/">@caizaga</a></p>
+    <p>Transforming Data into Insights: Exploring the Intersection of Economics and Analytics</p>
+    <ul class="actions">
+      <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+    </ul>
+  </div>
+
+  <!-- Header -->
+  <header id="header">
+    <a href="index.html" class="logo">Projects</a>
+  </header>
+
+  <!-- Nav -->
+  <nav id="nav">
+    <ul class="links">
+      <li class="active"><a href="index.html">Projects</a></li>
+    </ul>
+    <ul class="icons">
+      <li><a href="https://www.linkedin.com/in/caizaga/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+      <li><a href="https://github.com/caizaga" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+    </ul>
+  </nav>
+
+  <!-- Main -->
+  <div id="main">
+    <!-- Featured Post -->
+    <article class="post featured">
+      <header class="major">
+        <h2><a href="https://public.tableau.com/authoring/Covid-19DashboardCMAR/Dashboard1">COVID-19 Dashboard in Tableau<br /></a></h2>
+        <p>In this project, utilizing Tableau I created an interactive dashboard to gain insights into the COVID-19 pandemic from March 2020 to May 2023.</p>
+      </header>
+      <a href="https://public.tableau.com/authoring/Covid-19DashboardCMAR/Dashboard1" class="image main"><img src="images/covid.jpg" alt="" /></a>
+      <ul class="actions special">
+        <li><a href="https://public.tableau.com/authoring/Covid-19DashboardCMAR/Dashboard1" class="button large">View Project</a></li>
+      </ul>
+    </article>
+						<!-- Posts -->
+						<section class="posts">
+							<article>
+								<header>
+									
+									<h2><a href="https://github.com/caizaga/PortafolioProjects/blob/main/Portfolio%20Project%20SQL%20Server%20EDA.sql">Data Exploration of COVID-19 Dataset in SQL Server<br />
 									</a></h2>
-									<p>In this project we create a dashboard in Tableau to get insights of the pandemic caused by the virus COVID-19, since march 2020 to may 2023.</p>
 								</header>
-								<a href="https://public.tableau.com/authoring/Covid-19DashboardCMAR/Dashboard1#1" class="image main"><img src="images/covid.jpg" alt="" /></a>
+								<a href="https://github.com/caizaga/PortafolioProjects/blob/main/Portfolio%20Project%20SQL%20Server%20EDA.sql" class="image fit"><img src="images/covid2.jpg" alt="" /></a>
+								<p>In this project, utilizing SQL queries I extract and analyze data to gain valuable insights into the COVID-19 pandemic.</p>
 								<ul class="actions special">
-									<li><a href="https://public.tableau.com/authoring/Covid-19DashboardCMAR/Dashboard1#1" class="button large">Wiew Project</a></li>
+									<li><a href="https://github.com/caizaga/PortafolioProjects/blob/main/Portfolio%20Project%20SQL%20Server%20EDA.sql" class="button">Wiew Project</a></li>
 								</ul>
 							</article>
-
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										
-										<h2><a href="https://github.com/caizaga/PortafolioProjects/blob/main/Portfolio%20Project%20SQL%20Server%20EDA.sql">Data Exploration of COVID-19 Dataset in SQL Server<br />
-										</a></h2>
-									</header>
-									<a href="https://github.com/caizaga/PortafolioProjects/blob/main/Portfolio%20Project%20SQL%20Server%20EDA.sql" class="image fit"><img src="images/covid2.jpg" alt="" /></a>
-									<p>In this project we create a series of querys to get insights about the pandemic caused by the virus COVID-19.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/caizaga/PortafolioProjects/blob/main/Portfolio%20Project%20SQL%20Server%20EDA.sql" class="button">Wiew Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-									
-										<h2><a href="https://public.tableau.com/app/profile/carlos.aizaga/viz/ProjectoAirBnB/Dashboard1">AirBnB Price Listing Dashboard in Tableau<br />
-										</a></h2>
-									</header>
-									<a href="https://public.tableau.com/app/profile/carlos.aizaga/viz/ProjectoAirBnB/Dashboard1" class="image fit"><img src="images/sea2.jpg" alt="" /></a>
-									<p>In this project we create a dashboard to visualize distinct metrics of house pricing in AirBnB in Washington.</p>
-									<ul class="actions special">
-										<li><a href="https://public.tableau.com/app/profile/carlos.aizaga/viz/ProjectoAirBnB/Dashboard1" class="button">Wiew Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-									
-										<h2><a href="https://github.com/caizaga/PortafolioProjects/blob/main/Portfolio%20Project%20SQL%20Server%20Cleaning%20Data.sql">Nashville Housing Data Cleaning in SQL Server<br />
-										</a></h2>
-									</header>
-									<a href="https://github.com/caizaga/PortafolioProjects/blob/main/Portfolio%20Project%20SQL%20Server%20Cleaning%20Data.sql" class="image fit"><img src="images/nashv.jpg" alt="" /></a>
-									<p>In this project we clean a dataset of house pricing in Nashville, Tennessee.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/caizaga/PortafolioProjects/blob/main/Portfolio%20Project%20SQL%20Server%20Cleaning%20Data.sql" class="button">Wiew Project</a></li>
-									</ul>
-								</article>
-
-							<footer>
-						<section class="split contact">
-							<section class="alt">
-								<h3>Address</h3>
-								<p>Quito, Ecuador<br />
-								</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">(+593) 98-6151355</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">caizaga.115@gmail.com</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="https://www.linkedin.com/in/caizaga/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/caizaga" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							<article>
+								<header>
+								
+									<h2><a href="https://public.tableau.com/app/profile/carlos.aizaga/viz/ProjectoAirBnB/Dashboard1">AirBnB Price Listing Dashboard in Tableau<br />
+									</a></h2>
+								</header>
+								<a href="https://public.tableau.com/app/profile/carlos.aizaga/viz/ProjectoAirBnB/Dashboard1" class="image fit"><img src="images/sea2.jpg" alt="" /></a>
+								<p>In this project, utilizing Tableau, I created an interactive dashboard to visualize distinct metrics on house pricing in AirBnB within Washington.</p>
+								<ul class="actions special">
+									<li><a href="https://public.tableau.com/app/profile/carlos.aizaga/viz/ProjectoAirBnB/Dashboard1" class="button">Wiew Project</a></li>
 								</ul>
-							</section>
-						</section>
-					</footer>
+							</article>
+							<article>
+								<header>
+								
+									<h2><a href="https://github.com/caizaga/PortafolioProjects/blob/main/Portfolio%20Project%20SQL%20Server%20Cleaning%20Data.sql">Nashville Housing Data Cleaning in SQL Server<br />
+									</a></h2>
+								</header>
+								<a href="https://github.com/caizaga/PortafolioProjects/blob/main/Portfolio%20Project%20SQL%20Server%20Cleaning%20Data.sql" class="image fit"><img src="images/nashv.jpg" alt="" /></a>
+								<p>In this project, utilizing SQL queries I clean a complete dataset of house pricing data within Nashville, Tennessee.</p>
+								<ul class="actions special">
+									<li><a href="https://github.com/caizaga/PortafolioProjects/blob/main/Portfolio%20Project%20SQL%20Server%20Cleaning%20Data.sql" class="button">Wiew Project</a></li>
+								</ul>
+							</article>
+							<article>
+								<header>
+								
+									<h2><a href="https://github.com/caizaga/PortafolioProjects/blob/main/Sentiment_Analisys_BV.ipynb">Sentiment Analysis and wordclouds from CEO Wiewpoints in in Python<br />
+									</a></h2>
+								</header>
+								<a href="https://github.com/caizaga/PortafolioProjects/blob/main/Sentiment_Analisys_BV.ipynb" class="image fit"><img src="images/lvp.png" alt="" /></a>
+								<p>Utilizing Python's NLTK (Natural Language Toolkit), I analyze text data from multiple viewpoints, dating back to 2017, expressed by our CEO. The focus is on generating word clouds that depict positive, negative, and neutral sentiments.</p>
+								<ul class="actions special">
+									<li><a href="https://github.com/caizaga/PortafolioProjects/blob/main/Sentiment_Analisys_BV.ipynb" class="button">Wiew Project</a></li>
+							</article>
+							<article>
+								<header>
+								
+									<h2><a href="https://public.tableau.com/app/profile/carlos.aizaga/viz/TopCompanies2022/Dashboard1">Top 100 Companies 22th Edition in Tableau<br />
+									</a></h2>
+								</header>
+								<a href="https://public.tableau.com/app/profile/carlos.aizaga/viz/TopCompanies2022/Dashboard1" class="image fit"><img src="images/ltc.png" alt="" /></a>
+								<p>In this project, Tableau, I created an interactive dashboard to visualize distinct metrics on the 22th Edition of Top 100 Companies business ranking.</p>
+								<ul class="actions special">
+									<li><a href="https://public.tableau.com/app/profile/carlos.aizaga/viz/TopCompanies2022/Dashboard1" class="button">Wiew Project</a></li>
+								</ul>
+							</article>	
+    </section>
+  </div>
+  <!-- Footer -->
+  <footer id="footer">
+	<div class="contact-info">
+	  <h2>Contact Info:</h2>
+	  <div class="address">
+		<h3>Address</h3>
+		<p>Quito, Ecuador</p>
+	  </div>
+	  <div class="phone">
+		<h3>Phone</h3>
+		<p><a href="tel:+593986151355">(+593) 98-6151355</a></p>
+	  </div>
+	  <div class="email">
+		<h3>Email</h3>
+		<p><a href="mailto:caizaga.115@gmail.com">caizaga.115@gmail.com</a></p>
+	  </div>
+	  <div class="social">
+		<h3>Social</h3>
+		<ul class="icons alt">
+		  <li><a href="https://www.linkedin.com/in/caizaga/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+		  <li><a href="https://github.com/caizaga" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+		</ul>
+	  </div>
+	</div>
+	<div class="attribution">
+	  <p>&copy; Untitled | Design: <a href="https://html5up.net">HTML5 UP</a></p>
+	</div>
+  </footer>
+  
+</div>
 
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div>
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
 
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+</body>
 </html>
